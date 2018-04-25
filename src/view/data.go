@@ -18,7 +18,7 @@ type RelationPutRequest struct {
 
 type RelationGetResponse struct {
 	UserID int64  `json:"user_id"`
-	Status string `json:"status"`
+	State string  `json:"state"`
 	Type   string `json:"type"`
 }
 
